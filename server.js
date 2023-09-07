@@ -3,7 +3,7 @@ const app = express()
 
 app.use(express.json())
 
-app.get('/task1', (req, res) => {
+app.get('/api', (req, res) => {
     const { slack_name, track } = req.query
 
     if (slack_name && track) {
@@ -21,7 +21,7 @@ app.get('/task1', (req, res) => {
         res.status(200).json({
             "slack_name": `${slack_name}`,
             "current_day": `${days[date.getUTCDay() - 1]}`,
-            "utc_time": `${full_year}-${month}-${day} T${hours}:${minutes}:${seconds}Z`,
+            "utc_time": `${full_year}-${month}-${day}T${hours}:${minutes}:${seconds}Z`,
             "track": `${track}`,
             "github_file_url": "https://github.com/maverick0x/HNGi-X_Backend-1/blob/main/server.js",
             "github_repo_url": "https://github.com/maverick0x/HNGi-X_Backend-1",
