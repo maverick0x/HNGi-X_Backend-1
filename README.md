@@ -18,3 +18,5 @@ The information required includes:
 1. Install all needed libraries using ```npm init```.
 2. Use ```npm run dev``` to run in development mode.
 3. Use ```npm start``` to run in production mode.
+
+Click on the link to access the server in production mode: [Result Link](https://hngix-task1.glitch.me/api?slack_name=Farouk%20Bello&track=backend)
