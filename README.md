@@ -1,4 +1,4 @@
-# HNGi-X_Backend-1
+# HNGi-X Backend-1
 
 ## Task
 Create and host an endpoint using any programming language of your choice.
