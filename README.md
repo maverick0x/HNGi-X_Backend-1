@@ -15,7 +15,7 @@ The information required includes:
 - A  Status Code of Success
 
 ## Steps to run the server
-1. Install all needed libraries using ```npm init```.
+1. Install all needed libraries using ```npm install```.
 2. Use ```npm run dev``` to run in development mode.
 3. Use ```npm start``` to run in production mode.
 
