@@ -25,7 +25,7 @@ app.get('/api', (req, res) => {
             "track": `${track}`,
             "github_file_url": "https://github.com/maverick0x/HNGi-X_Backend-1/blob/main/server.js",
             "github_repo_url": "https://github.com/maverick0x/HNGi-X_Backend-1",
-            "status_code": `${res.statusCode}`
+            "status_code": res.statusCode
         })
     } else {
         res.status(400).json({
